@@ -13,7 +13,7 @@ const Employees = () => {
     { name: 'Dan', position: 'Designer', salary: '4532', status: 'Active' },
     { name: 'Jon', position: 'Designer', salary: '2112', status: 'Active' },
     { name: 'Nic', position: 'Developer', salary: '1234', status: 'Active' },
-    { name: 'Ron', position: 'Designer', salary: '7885', status: 'Not Active' },
+    { name: 'Rob', position: 'Designer', salary: '7885', status: 'Not Active' },
   ]
 
   return (
