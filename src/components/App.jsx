@@ -1,10 +1,10 @@
 import React from 'react'
-import Employees from './components/Employees'
+import Tasks from './Tasks'
 
 function App() {
   return (
     <div>
-      <Employees />
+      <Tasks />
     </div>
   )
 }
