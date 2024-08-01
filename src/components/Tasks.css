@@ -76,3 +76,19 @@ body {
   border: none;
   outline: none;
 }
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #282424;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #504c5c;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #684cf4;
+}
