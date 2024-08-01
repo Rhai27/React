@@ -104,7 +104,7 @@ const Tasks = () => {
         {filteredTasks.map((task, index) => (
           <Task
             key={index}
-            index={index + 1}
+            index={tasks.indexOf(task) + 1}
             description={task.description}
             assignee={task.assignee}
             deadline={task.deadline}
